@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #34495E;
+}
+#headerImg {
+    width: 100%;
+    height: 55vh;
+}
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline;
+}
+.profile-name {
+    display: inline;
+    margin-left: 20px;
+}
+.friends-card, .recent-posts {
+    overflow: auto;
+    height: 50vh;
+} 
+.friends, .posts {
+    list-style: none;
+}
+.friends li a {
+    text-decoration: none;
+    color: blue;
+}
+.friends li a:hover {
+    color: aqua;
+}
+

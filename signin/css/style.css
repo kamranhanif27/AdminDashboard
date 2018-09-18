@@ -1,0 +1,16 @@
+body {
+    background: url('../img/bg-img.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.signinform {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #eb2febc4;
+    color: white;
+    padding: 35px;
+    border-radius: 2%;
+    
+}
